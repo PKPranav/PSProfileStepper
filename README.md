@@ -6,8 +6,11 @@ It is implemented by the drawing layer CAShapeLayer and CATextLayer and Stepper 
 You can add PSProfileStepper directly in your storybord or xib, Or You can add it from setting its frame by the code.
 
 Requirements:
+
 xcode 7+
+
 iOS 7+
 
 Installation:
-Copy PSProfileStepper folder and pasete it in your project.
+
+Copy PSProfileStepper folder and paste it in your project.
