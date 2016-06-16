@@ -91,54 +91,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghp-2e-MkT" customClass="PSProfileStepper">
-                                <rect key="frame" x="31" y="381" width="489" height="40"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="RxJ-3I-e4Q"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="index">
-                                        <integer key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="circleCount">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="trackHeight">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="trackCircleRadius">
-                                        <real key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="sliderCircleRadius">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
-                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="sliderCircleColor">
-                                        <color key="value" red="0.99607843139999996" green="0.80000000000000004" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="innerCircleColor">
-                                        <color key="value" red="0.97898501459999998" green="0.6376201923" blue="0.62673951039999998" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="innerCircleNormalColor">
-                                        <color key="value" red="0.92156862750000001" green="0.92156862750000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="labelFontSize">
-                                        <real key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lineCircleRadius">
-                                        <real key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
-                                        <color key="value" red="0.31372549020000001" green="0.79607843140000001" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWq-Of-v9Y">
                                 <rect key="frame" x="434" y="285" width="32" height="30"/>
                                 <constraints>
@@ -160,11 +112,8 @@
                             <constraint firstItem="KWq-Of-v9Y" firstAttribute="top" secondItem="e3o-ps-2Jv" secondAttribute="bottom" constant="183" id="8O6-99-asm"/>
                             <constraint firstItem="GTO-j9-dx3" firstAttribute="top" secondItem="e3o-ps-2Jv" secondAttribute="bottom" constant="183" id="8cu-dq-8cE"/>
                             <constraint firstItem="e3o-ps-2Jv" firstAttribute="top" secondItem="KKU-mh-f6x" secondAttribute="bottom" constant="52" id="B0d-C9-PCw"/>
-                            <constraint firstAttribute="trailing" secondItem="ghp-2e-MkT" secondAttribute="trailing" constant="80" id="Did-O5-bfO"/>
-                            <constraint firstItem="ghp-2e-MkT" firstAttribute="leading" secondItem="OOO-B7-tJK" secondAttribute="leading" constant="31" id="NfP-iQ-n9k"/>
                             <constraint firstItem="e3o-ps-2Jv" firstAttribute="leading" secondItem="OOO-B7-tJK" secondAttribute="leading" constant="20" id="QOj-nC-KIM"/>
                             <constraint firstItem="GTO-j9-dx3" firstAttribute="centerX" secondItem="OOO-B7-tJK" secondAttribute="centerX" multiplier="0.5" id="U10-Bj-lFX"/>
-                            <constraint firstItem="ghp-2e-MkT" firstAttribute="top" secondItem="KWq-Of-v9Y" secondAttribute="bottom" constant="66" id="W2m-IA-svm"/>
                             <constraint firstItem="e3o-ps-2Jv" firstAttribute="centerX" secondItem="OOO-B7-tJK" secondAttribute="centerX" id="X0I-rW-LEB"/>
                         </constraints>
                     </view>
