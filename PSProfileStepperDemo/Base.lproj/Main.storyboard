@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iiM-ui-j9C">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--DemoVC-->
+        <scene sceneID="4OQ-mP-TTG">
+            <objects>
+                <viewController storyboardIdentifier="DemoVC" id="iiM-ui-j9C" customClass="DemoVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KKU-mh-f6x"/>
+                        <viewControllerLayoutGuide type="bottom" id="fhq-TP-yUK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OOO-B7-tJK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e3o-ps-2Jv" customClass="PSProfileStepper">
+                                <rect key="frame" x="20" y="72" width="560" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.98823529409999999" green="0.99215686270000003" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0T6-UY-4Kd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trackHeight">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trackCircleRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="sliderCircleRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                        <color key="value" red="0.31372549020000001" green="0.79607843140000001" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="sliderCircleColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="innerCircleNormalColor">
+                                        <color key="value" red="0.1333333333" green="0.69411764710000001" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="innerCircleColor">
+                                        <color key="value" red="0.21960784310000001" green="0.80784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="circleCount">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelFontSize">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineCircleRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.31372549020000001" green="0.79607843140000001" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTO-j9-dx3">
+                                <rect key="frame" x="121" y="285" width="59" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eFI-E1-zo1"/>
+                                    <constraint firstAttribute="width" constant="59" id="mVV-Xf-F4s"/>
+                                </constraints>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <action selector="changeByPrevIndex:" destination="iiM-ui-j9C" eventType="touchUpInside" id="605-sl-7m6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jla-Qu-0eN">
+                                <rect key="frame" x="226" y="206" width="147" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EkA-xp-Ldu"/>
+                                    <constraint firstAttribute="width" constant="147" id="QW4-Ub-cl6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghp-2e-MkT" customClass="PSProfileStepper">
+                                <rect key="frame" x="31" y="381" width="489" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="RxJ-3I-e4Q"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="circleCount">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trackHeight">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trackCircleRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="sliderCircleRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="sliderCircleColor">
+                                        <color key="value" red="0.99607843139999996" green="0.80000000000000004" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="innerCircleColor">
+                                        <color key="value" red="0.97898501459999998" green="0.6376201923" blue="0.62673951039999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="innerCircleNormalColor">
+                                        <color key="value" red="0.92156862750000001" green="0.92156862750000001" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelFontSize">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineCircleRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" red="0.31372549020000001" green="0.79607843140000001" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWq-Of-v9Y">
+                                <rect key="frame" x="434" y="285" width="32" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="Zps-0T-19c"/>
+                                    <constraint firstAttribute="height" constant="30" id="oao-S9-Lb6"/>
+                                </constraints>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="changeByNextIndex:" destination="iiM-ui-j9C" eventType="touchUpInside" id="qA0-QL-ZrD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1333333333" green="0.69411764710000001" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KWq-Of-v9Y" firstAttribute="centerX" secondItem="OOO-B7-tJK" secondAttribute="centerX" multiplier="1.5" id="39E-yi-tZs"/>
+                            <constraint firstItem="Jla-Qu-0eN" firstAttribute="centerX" secondItem="OOO-B7-tJK" secondAttribute="centerX" id="4Kb-pM-cOC"/>
+                            <constraint firstItem="Jla-Qu-0eN" firstAttribute="top" secondItem="e3o-ps-2Jv" secondAttribute="bottom" constant="104" id="63B-cH-RzJ"/>
+                            <constraint firstAttribute="trailing" secondItem="e3o-ps-2Jv" secondAttribute="trailing" constant="20" id="68N-pc-nxX"/>
+                            <constraint firstItem="KWq-Of-v9Y" firstAttribute="top" secondItem="e3o-ps-2Jv" secondAttribute="bottom" constant="183" id="8O6-99-asm"/>
+                            <constraint firstItem="GTO-j9-dx3" firstAttribute="top" secondItem="e3o-ps-2Jv" secondAttribute="bottom" constant="183" id="8cu-dq-8cE"/>
+                            <constraint firstItem="e3o-ps-2Jv" firstAttribute="top" secondItem="KKU-mh-f6x" secondAttribute="bottom" constant="52" id="B0d-C9-PCw"/>
+                            <constraint firstAttribute="trailing" secondItem="ghp-2e-MkT" secondAttribute="trailing" constant="80" id="Did-O5-bfO"/>
+                            <constraint firstItem="ghp-2e-MkT" firstAttribute="leading" secondItem="OOO-B7-tJK" secondAttribute="leading" constant="31" id="NfP-iQ-n9k"/>
+                            <constraint firstItem="e3o-ps-2Jv" firstAttribute="leading" secondItem="OOO-B7-tJK" secondAttribute="leading" constant="20" id="QOj-nC-KIM"/>
+                            <constraint firstItem="GTO-j9-dx3" firstAttribute="centerX" secondItem="OOO-B7-tJK" secondAttribute="centerX" multiplier="0.5" id="U10-Bj-lFX"/>
+                            <constraint firstItem="ghp-2e-MkT" firstAttribute="top" secondItem="KWq-Of-v9Y" secondAttribute="bottom" constant="66" id="W2m-IA-svm"/>
+                            <constraint firstItem="e3o-ps-2Jv" firstAttribute="centerX" secondItem="OOO-B7-tJK" secondAttribute="centerX" id="X0I-rW-LEB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressLabelIndex" destination="Jla-Qu-0eN" id="Z5r-7c-KWy"/>
+                        <outlet property="stepperView" destination="e3o-ps-2Jv" id="Pqt-Zd-Afl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tw5-yH-Xe9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="470" y="277"/>
+        </scene>
+    </scenes>
+</document>

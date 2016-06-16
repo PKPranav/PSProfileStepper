@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3443551CF8811000BE4175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3443541CF8811000BE4175 /* main.m */; };
+		CA3443581CF8811000BE4175 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3443571CF8811000BE4175 /* AppDelegate.m */; };
+		CA34435B1CF8811000BE4175 /* DemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA34435A1CF8811000BE4175 /* DemoVC.m */; };
+		CA34435E1CF8811000BE4175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA34435C1CF8811000BE4175 /* Main.storyboard */; };
+		CA3443601CF8811000BE4175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA34435F1CF8811000BE4175 /* Assets.xcassets */; };
+		CA3443631CF8811000BE4175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3443611CF8811000BE4175 /* LaunchScreen.storyboard */; };
+		CA34436D1CF883E400BE4175 /* PSProfileStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA34436C1CF883E400BE4175 /* PSProfileStepper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA3443501CF8811000BE4175 /* PSProfileStepperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSProfileStepperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3443541CF8811000BE4175 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA3443561CF8811000BE4175 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA3443571CF8811000BE4175 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA3443591CF8811000BE4175 /* DemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoVC.h; sourceTree = "<group>"; };
+		CA34435A1CF8811000BE4175 /* DemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoVC.m; sourceTree = "<group>"; };
+		CA34435D1CF8811000BE4175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA34435F1CF8811000BE4175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3443621CF8811000BE4175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3443641CF8811000BE4175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA34436B1CF883E400BE4175 /* PSProfileStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSProfileStepper.h; sourceTree = "<group>"; };
+		CA34436C1CF883E400BE4175 /* PSProfileStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSProfileStepper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA34434D1CF8811000BE4175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3443471CF8811000BE4175 = {
+			isa = PBXGroup;
+			children = (
+				CA3443521CF8811000BE4175 /* PSProfileStepperDemo */,
+				CA3443511CF8811000BE4175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3443511CF8811000BE4175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3443501CF8811000BE4175 /* PSProfileStepperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3443521CF8811000BE4175 /* PSProfileStepperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA34436A1CF883E400BE4175 /* PSProfileStepper */,
+				CA3443561CF8811000BE4175 /* AppDelegate.h */,
+				CA3443571CF8811000BE4175 /* AppDelegate.m */,
+				CA3443591CF8811000BE4175 /* DemoVC.h */,
+				CA34435A1CF8811000BE4175 /* DemoVC.m */,
+				CA34435C1CF8811000BE4175 /* Main.storyboard */,
+				CA34435F1CF8811000BE4175 /* Assets.xcassets */,
+				CA3443611CF8811000BE4175 /* LaunchScreen.storyboard */,
+				CA3443641CF8811000BE4175 /* Info.plist */,
+				CA3443531CF8811000BE4175 /* Supporting Files */,
+			);
+			path = PSProfileStepperDemo;
+			sourceTree = "<group>";
+		};
+		CA3443531CF8811000BE4175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA3443541CF8811000BE4175 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA34436A1CF883E400BE4175 /* PSProfileStepper */ = {
+			isa = PBXGroup;
+			children = (
+				CA34436B1CF883E400BE4175 /* PSProfileStepper.h */,
+				CA34436C1CF883E400BE4175 /* PSProfileStepper.m */,
+			);
+			path = PSProfileStepper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA34434F1CF8811000BE4175 /* PSProfileStepperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3443671CF8811000BE4175 /* Build configuration list for PBXNativeTarget "PSProfileStepperDemo" */;
+			buildPhases = (
+				CA34434C1CF8811000BE4175 /* Sources */,
+				CA34434D1CF8811000BE4175 /* Frameworks */,
+				CA34434E1CF8811000BE4175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSProfileStepperDemo;
+			productName = PSProfileStepperDemo;
+			productReference = CA3443501CF8811000BE4175 /* PSProfileStepperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3443481CF8811000BE4175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Pramod;
+				TargetAttributes = {
+					CA34434F1CF8811000BE4175 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CA34434B1CF8811000BE4175 /* Build configuration list for PBXProject "PSProfileStepperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3443471CF8811000BE4175;
+			productRefGroup = CA3443511CF8811000BE4175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA34434F1CF8811000BE4175 /* PSProfileStepperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA34434E1CF8811000BE4175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3443631CF8811000BE4175 /* LaunchScreen.storyboard in Resources */,
+				CA3443601CF8811000BE4175 /* Assets.xcassets in Resources */,
+				CA34435E1CF8811000BE4175 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA34434C1CF8811000BE4175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA34436D1CF883E400BE4175 /* PSProfileStepper.m in Sources */,
+				CA34435B1CF8811000BE4175 /* DemoVC.m in Sources */,
+				CA3443581CF8811000BE4175 /* AppDelegate.m in Sources */,
+				CA3443551CF8811000BE4175 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA34435C1CF8811000BE4175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA34435D1CF8811000BE4175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA3443611CF8811000BE4175 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3443621CF8811000BE4175 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3443651CF8811000BE4175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA3443661CF8811000BE4175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3443681CF8811000BE4175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PSProfileStepperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PS.PSProfileStepperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA3443691CF8811000BE4175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PSProfileStepperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PS.PSProfileStepperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA34434B1CF8811000BE4175 /* Build configuration list for PBXProject "PSProfileStepperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3443651CF8811000BE4175 /* Debug */,
+				CA3443661CF8811000BE4175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3443671CF8811000BE4175 /* Build configuration list for PBXNativeTarget "PSProfileStepperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3443681CF8811000BE4175 /* Debug */,
+				CA3443691CF8811000BE4175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA3443481CF8811000BE4175 /* Project object */;
+}
